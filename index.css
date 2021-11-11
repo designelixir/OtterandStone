@@ -1,0 +1,52 @@
+.cream {background-color: #FEF0EA }
+.peach { background-color: #EAD0C2}
+.blush { background-color: #DDB7B1}
+.pinkclay { background-color: #A9807D}
+.greenteal {background-color: #35575F}
+
+.cream-text {color: #FEF0EA; font-family: filson-pro,sans-serif; }
+.peach-text {color: #EAD0C2}
+.blush-text {color: #DDB7B1}
+.pinkclay-text {color: #A9807D}
+.greenteal-text {color: #35575F}
+.black-text {color: #2D2D2C}
+
+body {padding: 0 0 50px 0px;}
+
+.logo-container {width: 100%; height: 33vh; display: flex; align-items: center; justify-content: center;}
+.logo-container-section {width: 35%; display: inline-flex; align-items: center; }
+.logo-container a {color: #A9807D; margin: 0px 15px; text-decoration: none; font-size: 18px; font-family: filson-pro,sans-serif;}
+.logo-container a:hover {font-weight: 700;}
+.mobile-logo-container-section {display: flex; align-items: center; justify-content: space-evenly;}
+.mobile-logo-container-section a {color: #A9807D; margin: 0px 15px; text-decoration: none; font-size: 18px; font-family: filson-pro,sans-serif;}
+.mobile-logo-container {display: none;}
+#contact-button {padding: 25px 50px; background-color: #35575F; text-decoration: none;}
+#contact-button:hover {background-color: #518490; font-weight: 700;}
+
+#message-button {padding: 10px 25px; }
+
+h1 {font-size: 36px; font-family: filson-pro,sans-serif; font-weight: 700; font-style: normal;}
+h1 i {font-size: 36px; font-family: filson-pro,sans-serif; font-weight: 700; font-style: italic;}
+
+h2 {font-size: 24px; font-family: filson-pro, sans-serif; font-weight: 700; font-style: normal;}
+h2 i {font-size: 24px; font-family: filson-pro, sans-serif; font-weight: 700; font-style: italic;}
+
+h3 {font-size: 18px; font-family: filson-pro, sans-serif; font-weight: 400; font-style: normal;}
+
+
+p {font-size: 16px; font-family: filson-pro, sans-serif; font-weight: 400; font-style: normal;}
+
+.event-prep ul {display: flex; align-items: center; justify-content: center; flex-wrap: wrap;}
+.event-prep ul li {background-color:#A9807D; list-style-type: none; flex: 1 1 120px; height: 120px; max-width: 120px; margin: 5px; display: flex; align-items: center; justify-content: center; padding: 15px;}
+
+.event-assistance ul {display: flex; align-items: center; justify-content: center; flex-wrap: wrap;}
+.event-assistance ul li {background-color:#ddb7b1; list-style-type: none; flex: 1 1 120px; height: 120px; max-width: 120px; margin: 5px; display: flex; align-items: center; justify-content: center; padding: 15px;}
+
+form h3 {font-weight: 700;}
+
+.dot {border: 1px solid red; padding: 0px;}
+input { padding: 5px 10px; font-family: filson-pro, sans-serif;}
+@media only screen and (max-width: 600px) {
+    .logo-container {display: none;}
+    .mobile-logo-container {display: block;}
+  }
