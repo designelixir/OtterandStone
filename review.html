@@ -11,44 +11,75 @@
 
 
     </head>
-    <body class="peach">
-        <div class="logo-container">
-            <div class="logo-container-section" style="justify-content: flex-end;">
-                <a href="index.html" >Home</a>
-                <p class="pinkclay-text">|</p>
-                <a href="about.html">About</a>
+    <body>
+        <div class="logo-container flex-center-center">
+            <div class="logo-container-section flex-center-end" >
+                <a class="hover" href="index.html" >Home</a>
+                <p>|</p>
+                <a class="hover" href="about.html">About</a>
             </div>
-            <div class="logo-container-section" style="width: 250px; justify-content: center;">
-                <img src="src/otterstonelogo.png" style="width: 100%; height: auto; max-width: 250px;"/>
+            <div class="logo-container-section flex-center-center" style="width: 250px;">
+                <img src="src/otterstonelogo.png" onclick="window.open('index.html', '_self')" id="logo"/>
             </div>
-            <div class="logo-container-section" style="justify-content: left">
-                <a href="review.html" style="text-decoration: underline;">Reviews</a>
+            <div class="logo-container-section flex-center-start">
+                <a class="hover active-link" href="review.html">Reviews</a>
                 <p class="pinkclay-text">|</p>
-                <a href="contact.html">Contact</a>
+                <a class="hover" href="contact.html">Contact</a>
             </div>
         </div>
         <div class="mobile-logo-container">
-            <div style="width: 100%; display: flex; align-items: center; justify-content: center;">
-                <img src="src/otterstonelogo.png" style="width: 50%;  height: auto; "/>
+            <div class="flex-center-center" >
+                <img onclick="window.open('index.html', '_self')" src="src/otterstonelogo.png" style="width: 50%;  height: auto;"/>
             </div>
-            <div class="mobile-logo-container-section">
-                <a href="index.html" style="text-decoration: underline;">Home</a>
-                <p class="pinkclay-text">|</p>
-                <a href="about.html">About</a>
-                <p class="pinkclay-text">|</p>
-                <a href="review.html" style="text-decoration: underline;">Reviews</a>
-                <p class="pinkclay-text">|</p>
+            <div class="mobile-logo-container-section flex-center-spaceevenly">
+                <a href="index.html" >Home</a>
+                <p>|</p>
+                <a href="about.html" >About</a>
+                <p>|</p>
+                <a href="review.html" class="active-link">Reviews</a>
+                <p>|</p>
                 <a href="contact.html">Contact</a>
             </div>
         </div>
 
 
-        <div class="greenteal" style="padding: 10px 25px;">
+
+        <div class="header-banner">
             <h1 class="cream-text" style="text-align: center"> Reviews </h1> 
-            <h2 class="cream-text" style="text-align: center">Coming Soon </h2>
         </div>
-     
 
+        <div class="reviews-container">
+            <div class="flex-center-start review">
+                <img src="src/quote-tail-left.svg" style="height:25px; ">
+                <div class="review-left">
+                    <p>"Cam streamlined processes well. From the first meeting, she asked great questions to understand the goal of our website creation. She accomplished the marketing goals we were trying to achieve. The website and logo they designed was exactly what we were hoping for! I didn't really know what I wanted going into the project, but Cam and her team definitely delivered! I've recommended Cam to a few others already. Cam takes the time to understand your individual needs."</p>
+                    <a class="reviewer" href="https://www.toplinecustoms.com/">-Topline Customs</a>
+                </div>
+            </div>
+            <div class="flex-center-start review">
+                <div class="review-right">
+                    <p>"Cam's demeanor is a can-do and positive attitude. She is organized, follows up and is clear on next steps as well as making sure she learns what the goals and outcome is. The collaboration is great and makes for a great team. Cam really jumps in and it's much appreciated. She is really easy to work with and you know she is going to make sure everything goes smoothly."</p>
+                    <a class="reviewer">- Children's Trust Fund Alliance</a>
+                </div>
+                <img src="src/quote-tail.svg" style="height:25px; ">
+            </div>
+            <div class="flex-center-start review">
+                <img src="src/quote-tail-left.svg" style="height:25px; ">
+                <div class="review-left">
+                    <p>"I am delighted to share my experience with Cam at Otter & Stone. From conception to execution, Cam exceeded my expectations at every step, demonstrating expertise, creativity, and professionalism. In addition to their technical expertise, what sets Otter & Stone apart is their dedication to client satisfaction. They fostered a collaborative and responsive working relationship and the passion and commitment of Cam's team were evident in every interaction. If you are seeking a partner that combines innovation and a client-centric approach, look no further than Otter & Stone. I wholeheartedly recommend their services."</p>
+                    <a class="reviewer">-West Virginia Foster Adoptive and Kinship Parents Network
+                    </a>
+                </div>
+            </div>
+        </div>
 
+        <footer class="centered">
+            <div style="display: inline-flex">
+                <a class="icon hover" href="tel:816-225-3711"><img class="hover" src="src/phone-call-white.png" style="width: 20px; margin-right: 10px;"/></a>
+                <a class="icon hover" href="mailto:cam@otterandstone.com"><img class="hover" src="src/email-white.png" style="width: 25px;"/></a>
+            </div>
+            <p class="cream-text">Copyright &copy; Otter &amp; Stone 2021</p>
+        </footer>
     </body>
+
 </html>

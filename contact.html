@@ -12,119 +12,53 @@
 
 
     </head>
-    <body class="peach">
-        <div class="logo-container">
-            <div class="logo-container-section" style="justify-content: flex-end;">
-                <a href="index.html" >Home</a>
-                <p class="pinkclay-text">|</p>
-                <a href="about.html">About</a>
+    <body>
+        <div class="logo-container flex-center-center">
+            <div class="logo-container-section flex-center-end" >
+                <a class="hover" href="index.html" >Home</a>
+                <p>|</p>
+                <a class="hover" href="about.html">About</a>
             </div>
-            <div class="logo-container-section" style="width: 250px; justify-content: center;">
-                <img src="src/otterstonelogo.png" style="width: 100%; height: auto; max-width: 250px;"/>
+            <div class="logo-container-section flex-center-center" style="width: 250px;">
+                <img src="src/otterstonelogo.png" onclick="window.open('index.html', '_self')" id="logo"/>
             </div>
-            <div class="logo-container-section" style="justify-content: left">
-                <a href="review.html">Reviews</a>
+            <div class="logo-container-section flex-center-start">
+                <a class="hover" href="review.html">Reviews</a>
                 <p class="pinkclay-text">|</p>
-                <a href="contact.html" style="text-decoration: underline;">Contact</a>
+                <a class="hover active-link" href="contact.html">Contact</a>
             </div>
         </div>
         <div class="mobile-logo-container">
-            <div style="width: 100%; display: flex; align-items: center; justify-content: center;">
-                <img src="src/otterstonelogo.png" style="width: 50%;  height: auto; "/>
+            <div class="flex-center-center" >
+                <img onclick="window.open('index.html', '_self')" src="src/otterstonelogo.png" style="width: 50%;  height: auto;"/>
             </div>
-            <div class="mobile-logo-container-section">
-                <a href="index.html">Home</a>
-                <p class="pinkclay-text">|</p>
-                <a href="about.html">About</a>
-                <p class="pinkclay-text">|</p>
+            <div class="mobile-logo-container-section flex-center-spaceevenly">
+                <a href="index.html" >Home</a>
+                <p>|</p>
+                <a href="about.html" >About</a>
+                <p>|</p>
                 <a href="review.html">Reviews</a>
-                <p class="pinkclay-text">|</p>
-                <a href="contact.html" style="text-decoration: underline;">Contact</a>
+                <p>|</p>
+                <a href="contact.html" class="active-link">Contact</a>
             </div>
         </div>
 
 
-        <div class="greenteal" style="padding: 10px 25px;">
+
+        <div class="header-banner">
             <h1 class="cream-text" style="text-align: center"> Let's Work Together!</h1> 
         </div>
-        <h3 style="text-align: center; padding: 25px;"> For inquiries or questions, feel free to send a message below. You can also contact me at <a href="mailto:cam@otterandstone.com">cam@otterandstone.com</a>!</h3>
+        <h3 style="text-align: center; padding: 25px 25px 0px;"> For inquiries or questions, send a message below. You can also contact me at <a href="mailto:cam@otterandstone.com">cam@otterandstone.com</a>!</h3>
 
 
-        <div  style="display: flex; align-items: center; justify-content: center; width: 100%; padding: 25px; ">
-        <form class="cream" action="https://formsubmit.co/3e82bcc6d226aef4f152c3f3ff9a3486" method="POST" style="width: 100%; max-width: 500px; padding: 25px;">
-            <div style="display: inline-flex; ">
-                <div style="margin-right: 25px; ">
-                    <h3><b>*</b>Your Name: </h3>
-                    <input type="text" name="name" style="width: 175px; padding: 6px;" required>
-                </div>
-                <div style=" padding-right: 25px;">
-                    <h3><b>*</b>Your Email:</h3>
-                    <input type="email" style="width: 250px; padding: 6px;" name="email" required>
-
-                </div>
-            </div>
-            <div style="display: inline-flex; width: 400px;">
-                <div style="margin-right: 25px; width: 200px;">
-                    <h3>Event Start Date:</h3>
-                    <input type="date" name="eventstartdate">
-                </div>
-                <div style="width: 200px;">
-                    <h3>Event End Date:</h3>
-                    <input type="date" name="eventenddate">
-                </div>
-            
-            </div>
-            
-            
-            <div style="display: inline-flex; width: 100%;">
-                <div style=" padding-right: 45px; min-width: 150px; ">
-                    <h3>Type of Event:</h3>
-                    <ul style="list-style-type: none; padding-left: 0; font-family: filson-pro, sans-serif;">
-                        <li>
-                            <input type="radio" name="eventtype" value="teambuilding">
-                            <label for="teambuilding">Team Building</label>
-                        </li>
-                        <li> 
-                            <input type="radio" name="eventtype" value="training">
-                            <label for="training">Training</label>
-                        </li>
-                        <li>
-                            <input type="radio" name="eventtype" value="conference">
-                            <label for="conference">Conference</label>
-                        </li>
-                        <li>
-                            <input type="radio" name="eventtype" value="webinar">
-                            <label for="webinar">Webinar</label>
-                        </li>
-                        <li>
-                            <input type="radio" name="eventtype" value="socialevent">
-                            <label for="socialevent">Social Event</label>
-                        </li>
-                        <li>
-                            <input type="radio" name="eventtype" value="other">
-                            <label for="other">Other</label>
-                        </li>
-                    </ul>
-                </div>
-                <div >
-                    <h3>*Message:</h3>
-                    <input type="text" placeholder="Let's chat! Include any other details or logistics, questions or comments you may have" style="height: 200px; width: 100%; min-width: 250px; " name="message" required>
-                </div>
-            </div>
-            <input type='hidden' name="_next" value="https://otterandstone.com/thankyou.html">
-            <input type='hidden' name="_subject" value="You've received a new website message.">
-            <button type="submit" class="cream-text greenteal" id="message-button">Send Message</button>
-
-            
-       </form>
-    </div>
+        <script type="text/javascript" src="https://form.jotform.com/jsform/233467569302057"></script>
         
 
     </body>
-    <footer class="greenteal" style="width: 100%; text-align: center;">
-         <div style="display: inline-flex">
-            <a class="icon" href="tel:816-225-3711"><img src="https://github.com/coloradical/OtterandStone/blob/15c4aaaff825ec500ed793ae50f7c5c8eb9f9729/src/phone-call.svg" style="width: 25px; margin-right: 10px;"/></a>
-            <a class="icon" href="mailto:cam@otterandstone.com"><img src="https://github.com/coloradical/OtterandStone/blob/15c4aaaff825ec500ed793ae50f7c5c8eb9f9729/src/email.svg" style="width: 25px;"/></a>
+    <footer class="centered">
+        <div style="display: inline-flex">
+            <a class="icon hover" href="tel:816-225-3711"><img class="hover" src="src/phone-call-white.png" style="width: 20px; margin-right: 10px;"/></a>
+            <a class="icon hover" href="mailto:cam@otterandstone.com"><img class="hover" src="src/email-white.png" style="width: 25px;"/></a>
         </div>
         <p class="cream-text">Copyright &copy; Otter &amp; Stone 2021</p>
     </footer>
