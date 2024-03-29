@@ -5,6 +5,7 @@ class Header extends HTMLElement {
 
     connectedCallback() {
         this.innerHTML = `
+        
         <div class="logo-container flex-center-center">
         <div class="logo-container-section flex-center-end" >
             <a class="hover" href="/" id="Home">Home</a>
