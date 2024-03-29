@@ -26,7 +26,7 @@ main {min-height: 100%; padding-bottom: 25px;}
 .logo-container a {color: var(--pinkclay); margin: 0px 15px; text-decoration: none; font-size: 18px; font-family: filson-pro,sans-serif;}
 
 .active-link {text-decoration: underline!important;}
-
+.submit-button {border-color: unset!important;}
 .mobile-logo-container-section {color: var(--pinkclay)}
 .mobile-logo-container-section a {color: var(--pinkclay); margin: 0px 15px; text-decoration: none; font-size: 18px; font-family: filson-pro,sans-serif;}
 .mobile-logo-container {display: none;}
